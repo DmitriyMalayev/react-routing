@@ -10,7 +10,6 @@ import Search from "./Search";
 export default function Articles() {
   const articles = useSelector(selectArticles);
   const [searchParams, setSearchParams] = useSearchParams();
-  searchParams.get("title");
 
   const title = searchParams.get("title");
 
