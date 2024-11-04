@@ -9,7 +9,6 @@ import Author from "../components/Author";
 import Profile from "../components/Profile";
 import EditProfileForm from "../components/EditProfileForm";
 import Root from "../components/Root";
-import { Provider } from "react-redux";
 import {
   Route,
   createBrowserRouter,
